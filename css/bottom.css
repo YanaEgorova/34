@@ -1,0 +1,7 @@
+.bottom__wrapper {
+    background-color: var(--second-brand-color);
+}
+.bottom {
+    padding-bottom: 5rem;
+    text-align: center; 
+}

@@ -1,0 +1,27 @@
+.info {
+    text-align: center;
+}
+.info__item:not(:last-child) {
+    margin-bottom: 1rem;
+}
+@media screen and (min-width: 1024px)  {
+    .info__list {
+        display: flex;
+        justify-content: center;
+    }
+    .info__item:not(:last-child) {
+        margin-bottom: 0;
+    }
+    .info__item {
+        width: 33.22%;
+    }
+    .info__img {
+        height: 30rem;
+        object-fit: cover;
+        margin-bottom: 2rem;
+    }
+}
+
+
+
+
